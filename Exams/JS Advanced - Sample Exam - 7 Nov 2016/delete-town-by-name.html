@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Town by Name</title>
+    <style>select, input { width: 100px }</style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body onload="attachEvents()">
+<div>Towns</div>
+<select id="towns" size="4">
+
+    <option>Sofia</option>
+    <option>Varna</option>
+    <option>Pleven</option>
+
+</select>
+<div>
+    <input type="text" id="townName" />
+    <button id="btnDelete">Delete</button>
+</div>
+<div id="result"></div>
+<script>
+
+    function attachEvents() {
+
+        $('#btnDelete').click(function () {
+
+            let targetValue = $('#townName')[0].value;
+            //console.log($('#townName')[0])
+            //console.log(targetValue)
+
+            if(!targetValue == ''){
+                //let test = $('option').toArray().filter(e => e.value)
+                //console.log(test)
+
+               if($('option').toArray().filter(e => e.value === targetValue).length > 0 ){
+
+
+                  $('option').each(function () {
+                      if($(this).val() === targetValue){
+                          $('#result').text(targetValue + ' deleted.')
+                          $(this).remove()
+                      }
+                  })
+               }else{
+                   $('#result').text(targetValue + ' not found.')
+               }
+
+            }else{
+                //$('#towns').find('option').remove()
+                $('#result').text(' not found.')
+            }
+
+            $('#townName').val('')
+        })
+    }
+
+/*
+    function attachEvents() {
+        $('#btnDelete').click(function () {
+
+            let town = $('#townName')[0].value;
+
+            if($('option').toArray().filter(a=>a.value===town).length===0){
+
+                $('#result').text(``)
+
+                $('#result').text(`${town} not found.`)
+
+            }
+
+            else{
+
+                $('#result').text(``)
+
+                $('#result').text(`${town} deleted.`)
+
+                $($('option').toArray().filter(a=>a.value===town)).remove()
+
+            }
+
+
+
+        })
+
+    }
+
+*/
+</script>
+</body>
+</html>
