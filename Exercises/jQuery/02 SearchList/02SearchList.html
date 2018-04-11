@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search in List</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+</head>
+<body>
+<ul id="towns">
+    <li>Sofia</li>
+    <li>Pleven</li>
+    <li>Varna</li>
+    <li>Plovdiv</li>
+</ul>
+<input type="text" id="searchText" />
+<button onclick="search()">Search</button>
+<div id="result"></div>
+    <script>
+        function search() {
+
+            //console.log(liValues)
+            let targetValue = $('#searchText')    //тук му казваме да взима каквото му подадем в търсачката
+            let count = 0
+            if(!targetValue == '') {
+
+                let liValues = $('#towns').find('li').each((index, el) => {
+                    if (el.textContent.includes(targetValue.val())) { // тук казваме ако има в li-тата думата, която сме въвели от targetValue да върне true или false
+                        $(el).css('font-weight', 'bold')
+                        count++
+                        //targetValue.clear()
+                    } else {
+                        $(el).css('font-weight', '')
+                    }
+                })
+
+            }
+            $('#result').text(count + ' matches found.')
+           targetValue.val('') // това изтрива нещото което сме го написали в полето, -> да не стои постоянно там
+        }
+    </script>
+</body>
+</html>
