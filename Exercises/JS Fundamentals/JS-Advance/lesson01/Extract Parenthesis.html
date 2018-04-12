@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p id="content">
+    This is some text. (this must be extracted). Some more text. (more text)
+    </p>
+    <script>
+        function solve(id) {
+            let text = document.getElementById(id).textContent
+            let arr = []
+            let patter =/\((.+?)\)/g
+            let match = patter.exec(text)
+
+            while (match ){
+                arr.push(match[1])
+                match = patter.exec(text)
+            }
+
+            return arr.join("; ")
+        }
+        console.log(solve('content'))
+    </script>
+</body>
+</html>
