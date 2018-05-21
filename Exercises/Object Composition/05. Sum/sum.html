@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+            integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<input type="text" id="num1" />
+<input type="text" id="num2" />
+<input type="text" id="result" readonly />
+<br>
+<button id="sumButton" onclick="sum()">Sum</button>
+<button id="subtractButton" onclick="sub()">Subtract</button>
+<script>
+
+            //Module Pattern
+        function solution() {
+        let element1, element2, result;
+            return {
+                init: function (selector1, selector2, resultSelector) {
+                    element1 = $(selector1);
+                    element2 = $(selector2);
+                    result = $(resultSelector);
+                },
+                add: function () {
+                    result.val(Number(element1.val()) + Number(element2.val()) )
+                },
+                subtract: function () {
+                    result.val(Number(element1.val()) - Number(element2.val()) )
+                }
+            }
+        }
+
+
+        //Reviling Pattern
+        /*
+        function getModel() {
+            let num1, num2, result;
+
+            function init(num1Sel, num2Sel, resultSel) {
+                num1 = $(num1Sel);
+                //console.log(num1)
+                num2 = $(num2Sel);
+                result = $(resultSel);
+            }
+
+            function add() {
+                action((a, b) => a + b);
+            }
+
+            function subtract() {
+                action((a, b) => a - b);
+            }
+            function action(operation) {
+                let val1 = Number(num1.val());
+                let val2 = Number(num2.val());
+                result.val(operation(val1, val2));
+            }
+
+            let model = { init, add, subtract };
+            return model;
+        }
+        */
+</script>>
+</body>
+</html>
