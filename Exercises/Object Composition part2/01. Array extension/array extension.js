@@ -1,3 +1,4 @@
+/*
 (function () {
     Array.prototype.last = function () {
         return this[this.length-1]
@@ -17,3 +18,5 @@
 })();
 myArr = [1,1,1,2,2,3];
 console.log(myArr.sum());
+*/
+

@@ -13,21 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bug tracker.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08. Bug Tracker/bug tracker.html">
+    <leaf>
+      <file leaf-file-name="array extension.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01. Array extension/array extension.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bug tracker.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/08. Bug Tracker/bug tracker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -45,7 +36,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01. Array extension/array extension.js" />
         <option value="$PROJECT_DIR$/02. Construction Crew/construction crew.js" />
         <option value="$PROJECT_DIR$/03. Car Factory/car factory.js" />
         <option value="$PROJECT_DIR$/07. DOM Highlighter/dom traversal.html" />
@@ -55,6 +45,7 @@
         <option value="$PROJECT_DIR$/07. DOM Highlighter/dom highlighter.js" />
         <option value="$PROJECT_DIR$/08. Bug Tracker/bug tracker.html" />
         <option value="$PROJECT_DIR$/08. Bug Tracker/bug tracker.js" />
+        <option value="$PROJECT_DIR$/01. Array extension/array extension.js" />
       </list>
     </option>
   </component>
@@ -73,10 +64,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1011" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1010" />
     <option name="y" value="5" />
-    <option name="width" value="893" />
+    <option name="width" value="895" />
     <option name="height" value="1005" />
   </component>
   <component name="ProjectView">
@@ -95,7 +86,12 @@
             <path>
               <item name="Object Composition part2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Object Composition part2" type="462c0819:PsiDirectoryNode" />
-              <item name="07. DOM Highlighter" type="462c0819:PsiDirectoryNode" />
+              <item name="01. Array extension" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Object Composition part2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Object Composition part2" type="462c0819:PsiDirectoryNode" />
+              <item name="08. Bug Tracker" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -112,7 +108,7 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -163,17 +159,20 @@
       <workItem from="1524895432411" duration="21768000" />
       <workItem from="1526046554679" duration="1294000" />
       <workItem from="1526058711926" duration="10294000" />
+      <workItem from="1526909020261" duration="1239000" />
+      <workItem from="1527053602128" duration="503000" />
+      <workItem from="1527054137774" duration="590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36449000" />
+    <option name="totallyTimeSpent" value="38781000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="809" y="4" width="714" height="804" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1473893" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -204,13 +203,21 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/08. Bug Tracker/08. Bug Tracker_HTML Skeleton.html">
+    <entry file="file://$PROJECT_DIR$/08. Bug Tracker/bug tracker.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="71" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
+        <state relative-caret-position="901">
+          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/08. Bug Tracker/bug tracker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08. Bug Tracker/08. Bug Tracker_HTML Skeleton.html" />
     <entry file="file://$PROJECT_DIR$/08. Bug Tracker/bug tracker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -239,13 +246,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08. Bug Tracker/08. Bug Tracker_HTML Skeleton.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="71" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/08. Bug Tracker/08. Bug Tracker_HTML Skeleton.html" />
     <entry file="file://$PROJECT_DIR$/08. Bug Tracker/bug tracker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -272,13 +273,6 @@
         <state relative-caret-position="-561" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01. Array extension/array extension.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02. Construction Crew/construction crew.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -301,13 +295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03. Car Factory/car factory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04. Extensible Object/extensible object.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -322,29 +309,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08. Bug Tracker/08. Bug Tracker_HTML Skeleton.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="true" selection-end-line="63" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Object Composition/exercises/object inheritance.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/08. Bug Tracker/08. Bug Tracker_HTML Skeleton.html" />
     <entry file="file://$PROJECT_DIR$/../Object Composition/exercises/01 exercises.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-516">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-516" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Advanced Functions/12. Monkey Patcher/monkeyPatch.js">
@@ -359,17 +327,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08. Bug Tracker/bug tracker.html">
+    <entry file="file://$PROJECT_DIR$/../JS Fundamentals/ControlFlowLogic/primeNumbers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        <state relative-caret-position="221">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/08. Bug Tracker/bug tracker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03. Car Factory/car factory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08. Bug Tracker/bug tracker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="63" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01. Array extension/array extension.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>

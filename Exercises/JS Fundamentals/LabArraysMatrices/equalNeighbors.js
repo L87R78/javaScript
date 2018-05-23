@@ -1,5 +1,5 @@
+/*
 function equalNeighbors(matrix) {
-
     let count = 0;
     for (let a = 0; a < matrix.length; a++) {
         for (let b = 0; b < matrix[a].length; b++) {
@@ -29,5 +29,35 @@ function equalNeighbors(matrix) {
 equalNeighbors([['1', '1'],
                 ['1', '1']]
                );
+*/
+
+function neighBors(matrix) {
+    let count = 0;
+    //&& matrix[a + 1] <= matrix[row].length
+    for (let row = 0; row < matrix.length; row++) {
+        if(row + 1 <= matrix.length){
+            for (let a = 0; a < matrix[row].length; a++) { //?
+                if(matrix[row][a] === matrix[row][a + 1] ){
+                    count++;
+                }
+            }
+
+            for (let b = 0; b < matrix[row].length; b++) { //?
+
+                if(row + 1 === matrix.length){
+                    break;
+                }
+                if(matrix[row][b] === matrix[row + 1][b]){
+                    count++;
+                }
+            }
+        }
+    }
+    console.log(count)
+}
+
+neighBors([['test', 'yes', 'yo', 'ho'],
+    ['well', 'done', 'yo', '6'],
+    ['not', 'done', 'yet', '5']]);
 
 
