@@ -1,6 +1,8 @@
+
 function formFiller(username, email, phone, data) {
 
     data.forEach(line => {
+
             line = line.replace(/<![a-zA-Z]+!>/g, username);
             line = line.replace(/<@[a-zA-Z]+@>/g, email);
             line = line.replace(/<\+[a-zA-Z]+\+>/g, phone);
@@ -18,3 +20,5 @@ formFiller('Pesho',
         'Your current email is: <@DasEmail@>. Would you like to change that? (Y/N)',
         'Your current phone number is: <+number+>. Would you like to change that? (Y/N)']
 );
+
+
