@@ -47,18 +47,36 @@
 </section>
 
 <script>
+    /*
     function addProduct() {
         let createProduct = $('#add-product').find('label')[0].children[0];
         let createPrice = $('#add-product').find('label')[1].children[0];
-       // console.log(createProduct)
-       // console.log(createPrice)
 
-        $('#product-list').append(`<tr><td>${createProduct.value}</td><td>${createPrice.value}</td></tr>`);
-        let sumPrice = $('#bill').find('tfoot')[0].children[0].children[1];
-        sumPrice.textContent = Number(sumPrice.textContent) + Number(createPrice.value);
+        if(createProduct.value !== '' && createPrice.value !== '') {
+            $('#product-list').append(`<tr><td>${createProduct.value}</td><td>${createPrice.value}</td></tr>`);
+            let sumPrice = $('#bill').find('tfoot')[0].children[0].children[1];
+            sumPrice.textContent = Number(sumPrice.textContent) + Number(createPrice.value);
 
-        $(createPrice).val('');
-        $(createProduct).val('')
+            $(createPrice).val('');
+            $(createProduct).val('')
+        }
+    }
+    */
+    function addProduct() {
+        let Addproduct = $('#add-product label')[0].children[0];
+        let Addprice = $('#add-product label')[1].children[0];
+
+        if(Addproduct.value !== '' && Addprice.value !== '') {
+            $('#product-list').append(`<tr><td>${Addproduct.value}</td><td>${Addprice.value}</td></tr>`); //създаваме във ID tr  и вътре във него td
+
+            let total = $('#bill tfoot tr td')[1];
+            $(total).html(function (i, html) {          //тук на total му казваме да се увеличава с price
+                return +html + Number(Addprice.value);
+            });
+
+            Addproduct.value = '';
+            Addprice.value = '';
+        }
     }
 </script>
 
