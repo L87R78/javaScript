@@ -13,12 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="array extension.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01. Array extension/array extension.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="construction crew.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02. Construction Crew/construction crew.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="660">
+              <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,7 +39,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/02. Construction Crew/construction crew.js" />
         <option value="$PROJECT_DIR$/03. Car Factory/car factory.js" />
         <option value="$PROJECT_DIR$/07. DOM Highlighter/dom traversal.html" />
         <option value="$PROJECT_DIR$/07. DOM Highlighter/07. DOM Highlighter_HTML Skeleton.html" />
@@ -46,6 +48,7 @@
         <option value="$PROJECT_DIR$/08. Bug Tracker/bug tracker.html" />
         <option value="$PROJECT_DIR$/08. Bug Tracker/bug tracker.js" />
         <option value="$PROJECT_DIR$/01. Array extension/array extension.js" />
+        <option value="$PROJECT_DIR$/02. Construction Crew/construction crew.js" />
       </list>
     </option>
   </component>
@@ -75,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,7 +88,7 @@
             <path>
               <item name="Object Composition part2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Object Composition part2" type="462c0819:PsiDirectoryNode" />
-              <item name="01. Array extension" type="462c0819:PsiDirectoryNode" />
+              <item name="02. Construction Crew" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Object Composition part2" type="b2602c69:ProjectViewProjectNode" />
@@ -97,6 +99,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.dom highlighter.js">
+  <component name="RunManager" selected="Node.js.construction crew.js">
     <configuration name="array extension.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="array extension.js" working-dir="$PROJECT_DIR$/01. Array extension" />
     <configuration name="car factory.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="car factory.js" working-dir="$PROJECT_DIR$/03. Car Factory" />
     <configuration name="construction crew.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="construction crew.js" working-dir="$PROJECT_DIR$/02. Construction Crew" />
@@ -137,10 +140,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.construction crew.js" />
         <item itemvalue="Node.js.dom highlighter.js" />
         <item itemvalue="Node.js.extensible object.js" />
         <item itemvalue="Node.js.car factory.js" />
-        <item itemvalue="Node.js.construction crew.js" />
         <item itemvalue="Node.js.array extension.js" />
       </list>
     </recent_temporary>
@@ -162,17 +165,17 @@
       <workItem from="1526909020261" duration="1239000" />
       <workItem from="1527053602128" duration="503000" />
       <workItem from="1527054137774" duration="590000" />
+      <workItem from="1530121705907" duration="5314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38781000" />
+    <option name="totallyTimeSpent" value="44095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1473893" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.027759418" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -199,10 +202,20 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/01. Array extension/array extension.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/08. Bug Tracker/bug tracker.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -273,13 +286,6 @@
         <state relative-caret-position="-561" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02. Construction Crew/construction crew.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Object Composition/04. Object Inheritance/cars.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2210">
@@ -310,11 +316,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/08. Bug Tracker/08. Bug Tracker_HTML Skeleton.html" />
-    <entry file="file://$PROJECT_DIR$/../Object Composition/exercises/01 exercises.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-516" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Advanced Functions/12. Monkey Patcher/monkeyPatch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-176" />
@@ -357,8 +358,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01. Array extension/array extension.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="731">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Object Composition/02. Fibonacci/fibonacci.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Object Composition/exercises/object exercises.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Object Composition/exercises/01 exercises.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02. Construction Crew/construction crew.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

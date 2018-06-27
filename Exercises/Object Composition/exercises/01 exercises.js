@@ -77,7 +77,6 @@ let revModule = (function() {
     return { increase, decrease, value };
 })();
 
-
   // -- module pattern
 
 let module = (function() {
