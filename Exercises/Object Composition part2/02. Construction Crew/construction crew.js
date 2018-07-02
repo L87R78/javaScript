@@ -26,7 +26,7 @@ function solve(obj) {
 	let alcoholLevel= obj.bloodAlcoholLevel;
 	let handsShaking = obj.handsShaking;
 	
-	if(handsShaking === true){
+	if(handsShaking){
 		let result = experience * 0.1;
 		result = (result * weight) + alcoholLevel;
 		

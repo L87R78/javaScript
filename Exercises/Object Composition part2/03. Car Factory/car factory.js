@@ -1,4 +1,4 @@
-
+/*
 function solve(obj) {
     let powerEngine = Number(obj.power);
     let powerVolume = 0;
@@ -40,11 +40,15 @@ solve({ model: 'VW Golf II',
     color: 'blue',
     carriage: 'hatchback',
     wheelsize: 14 });
+*/ 
+    
+    
+    
 
 
-/*
+
 function solution (requirements) {
-    let model = requirements.model
+    let model = requirements.model;
     let color = requirements.color;
     let power = requirements.power;
     let carriage = requirements.carriage;
@@ -80,4 +84,8 @@ solution({ model: 'VW Golf II',
     carriage: 'hatchback',
     wheelsize: 14 }
 )
-*/
+
+
+
+
+
