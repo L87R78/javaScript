@@ -76,9 +76,9 @@ let revModule = (function() {
 
     return { increase, decrease, value };
 })();
-
-  // -- module pattern
-
+console.log(revModule.decrease(322));
+// -- module pattern
+/*
 let module = (function() {
     let count = 0; // private
     return {
@@ -87,6 +87,7 @@ let module = (function() {
         value: () => count,
     };
 })();
+*/
 
 
 

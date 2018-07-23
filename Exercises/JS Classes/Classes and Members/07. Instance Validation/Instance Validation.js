@@ -36,8 +36,6 @@ class CheckingAccount {
 		else if(!/^[a-zA-Z]{3,20}$/g.test(value)){
 			throw new TypeError("First name must be between 3 and 20 characters long")
 		}
-		
-		
 		this._firstName = value;
 	}
 	

@@ -1,3 +1,4 @@
+
 class Textbox{
 	constructor(selector, regex){
 		this._elements = $(selector);
@@ -5,6 +6,7 @@ class Textbox{
 		this._invalidSymbols = regex;
 		this.onInput();
 	}
+	
 	onInput(){
 		//this.elements.on('input', (event) =>{
 		//	let text = $(event.target).val();
@@ -18,15 +20,18 @@ class Textbox{
 		});
 	}
 	
+	
 	get value(){
 		return this._value;
 	}
+	
 	set value(value){
 		this._value = value;
 		for (let el of this.elements) {
-			$(el).val(value)
+			$(el).val(value);
 		}
 	}
+	
 	get elements(){
 		return this._elements;
 	}
