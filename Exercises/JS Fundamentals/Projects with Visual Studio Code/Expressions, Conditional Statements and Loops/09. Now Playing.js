@@ -4,4 +4,4 @@ function nowPlaying(arr){
     let duration = arr[2];
     console.log(`Now Playing: ${singer} - ${trackName} [${duration}]`)
 }
-//nowPlaying(['Number One', 'Nelly', '4:09']);
+nowPlaying(['Number One', 'Nelly', '4:09']);

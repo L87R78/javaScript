@@ -18,4 +18,4 @@ function solve(arr) {
     console.log(distance);
     
 }
-//solve([0, 60, 3600])
+solve([0, 60, 3600])
