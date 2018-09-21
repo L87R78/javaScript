@@ -145,6 +145,35 @@ console.log(c2.toString());
 
 
 
+var array = [{
+	key: {name: "C Some name", id: 123},
+	value: {value: 1, element:"some element"}
+}, {
+	key: {name: "A Name 2", id: 1234},
+	value: {value: 4, element:"some element 2"}
+}, {
+	key: {name: "B Other name", id: 1235},
+	value: {value: 2, element:"some element 3"}
+}];
+
+var newArray = array.sort(function(first, second) {
+	var a = first.key.id
+	var b = second.key.name;
+	
+	if(a > b) {
+		return 1;
+	} else if(a < b) {
+		return -1;
+	} else {
+		return 0;
+	}
+});
+
+console.log(newArray);
+
+
+
+
 
 
 

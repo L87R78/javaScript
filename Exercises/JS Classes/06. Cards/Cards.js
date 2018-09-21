@@ -4,13 +4,13 @@ let result = (function () {
 		DIAMONDS: "\u2666",
 		HEARTS: "\u2665",
 		SPADES: "\u2660",
-	}
-	const Faces = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
+	};
+	const Faces = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
 	
 	class Card {
 		constructor(face, suit) {
-			this.face = face
-			this.suit = suit
+			this.face = face;
+			this.suit = suit;
 			//Object.freeze(this) не може да се добавя и сменя ни
 			//Object.suit(this) // не може да сменя имената и боите, но може да добавя
 		}
@@ -41,12 +41,12 @@ let result = (function () {
 		}
 	}
 	return {Suits, Card}
-}())
+}());
 
-let Card = result.Card
-let Suits = result.Suits
+let Card = result.Card;
+let Suits = result.Suits;
 
-let c1 = new Card('4', Suits.SPADES)
+let c1 = new Card('4', Suits.HEARTS);
 console.log(c1.toString());
 
 
