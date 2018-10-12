@@ -24,7 +24,7 @@ function countWord(arrInput){
 }
 countWord("Far too slow, you're far too slow.")
 */
-function CountWordsWithMaps(arr) {
+function countWordsWithMaps(arr) {
     let obj = {};
     //arr = String.prototype.toLowerCase.apply(arr).split(',')
     for(let key of arr){
@@ -40,3 +40,4 @@ function CountWordsWithMaps(arr) {
     }
     console.log(JSON.stringify(obj))
 }
+countWordsWithMaps("Far too slow, you're far too slow.")

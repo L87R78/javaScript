@@ -90,18 +90,8 @@ let test = [country1, country2]
             .map((countryObj) => {
                return country = countryObj.country;
             });
+  
 
 console.log(test)
-
-for (let obj of test) {
-        console.log(obj);
-   for (let city in obj) {
-            console.log(city)
-        for (let key in city) {
-                console.log(key)
-        }
-   }
-}
-
 
 
