@@ -87,7 +87,7 @@ function arenaTier(data) {
  
         console.log(`${glad}: ${gladTotalSkill} skill`);
  
-        Array.from(gladiators.get(glad).keys()).sort((tech1, tech2) => {
+        let orderedTechnieques = Array.from(gladiators.get(glad).keys()).sort((tech1, tech2) => {
            return gladiators.get(glad).get(tech2) - gladiators.get(glad).get(tech1);
         }).forEach(tech => {
             console.log(`- ${tech} <!> ${gladiators.get(glad).get(tech)}`);
