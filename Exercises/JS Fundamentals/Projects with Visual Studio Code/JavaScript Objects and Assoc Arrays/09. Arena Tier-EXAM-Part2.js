@@ -87,10 +87,11 @@ function solve(input){
          })
      });
 }
-solve(['Pesho -> Duck -> 400',
+solve(['Pesho -> Duck -> 455555',
 'Julius -> Shield -> 150',
 'Gladius -> Heal -> 200',
-'Gladius -> Support -> 250',
+'Gladius -> Support -> 450',
+'Lubo -> Subaru -> 3232323232',
 'Gladius -> Shield -> 250',
 'Pesho vs Gladius',
 'Gladius vs Julius',
