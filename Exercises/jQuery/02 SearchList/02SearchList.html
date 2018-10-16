@@ -22,7 +22,7 @@
             //console.log(liValues)
             let targetValue = $('#searchText')   ; //тук му казваме да взима каквото му подадем в търсачката
             let count = 0;
-            if(!targetValue == '') {
+            if(!targetValue === '') {
 
                 let liValues = $('#towns').find('li').each((index, el) => {
                     if (el.textContent.includes(targetValue.val())) { // тук казваме ако има в li-тата думата, която сме въвели от targetValue да върне true или false

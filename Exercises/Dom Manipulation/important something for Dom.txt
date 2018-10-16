@@ -1,0 +1,26 @@
+<input> - н€колко полетата са
+
+
+<input type="text" required> > required>  ни пази ако нещо не е наред
+<input type="password">
+<input type="email">
+<input type="number">
+
+
+
+
+
+
+
+
+
+
+
+	най-важните атрибути са ID и class
+
+
+
+
+	
+
+

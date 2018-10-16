@@ -1,0 +1,9 @@
+div{
+    color: crimson;
+}
+.green-elements{
+    color: green;
+}
+.green-elements div{
+    color: sienna;
+}
