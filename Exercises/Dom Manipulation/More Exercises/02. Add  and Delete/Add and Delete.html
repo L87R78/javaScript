@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>List of Items</h1>
+<ul id="items"></ul>
+<input type="text" id="newText" />
+<input type="button" value="Add"
+       onclick="addItem()">
+<script>
+    function addItem() {
+                        //solve 1
+        /*
+        let newItem = document.getElementById("newText");
+        let li = document.createElement('li');
+        li.textContent = newItem.value;
+
+        let span = document.createElement('span');
+        span.innerHTML = " <a href='#'>[Delete]</a>";
+
+        span.addEventListener("click", function () {
+            //alert("Im here")
+            let li = span.parentNode;
+            li.parentNode.removeChild(li)
+        });
+
+        li.appendChild(span);
+        let items = document.getElementById("items");
+        if(newItem.value !== ""){
+            items.appendChild(li)
+        }
+        newItem.value = "";
+        */
+        //----------------------------------------------------------------------------
+                            //solve 2
+        let inputElement = document.getElementById("newText");
+        if(inputElement.value.trim() !== ""){
+            let li = document.createElement('li');
+            li.textContent = inputElement.value;
+
+            let a = document.createElement('a');
+            a.href = '#';
+            a.textContent = "[Deleted]";
+
+            a.addEventListener("click", function (event) {
+                let forDeleted = event.target.parentNode;
+                forDeleted.parentNode.removeChild(forDeleted)
+
+            });
+            li.appendChild(a);
+            document.getElementById('items').appendChild(li);
+            inputElement.value = "";
+        }
+
+    }
+</script>
+</body>
+</html>

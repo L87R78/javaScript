@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759cd996-1245-43e6-bcc6-316adcf81526" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01. Calculate/calculate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02. Show More/show more.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03. Collect List/Collect list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04. Colorize Table/Colorize Table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05. Countdown/CountDown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creating new DOM  element/demo01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML  hang up CSS/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML  hang up CSS/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demos/demo01/demo01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jQuery/02 SearchList/02SearchList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jQuery/02 SearchList/02SearchList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06. Extract Parenthesis/Extract Parenthesis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. Sum Table/Sum Table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises-02/01. Subtraction/01-Subtraction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises-02/01. Subtraction/subtract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises-02/02. Fill Dropdown/Fill Dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises-02/02. Fill Dropdown/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises-02/03. Accordion/Accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises/01. List of Items/List Exercises.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises/02. Add  and Delete/Add and Delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises/03. Delete from Table/Delete from Table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises/04. Stopwatch/Stopwatch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises/05. Mouse Gradient/Mouse Gradient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises/05. Mouse Gradient/Mouse Gradient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises/05. Mouse Gradient/gradient.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises/06. Highlight Active/Highlight Active.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Exercises/07. Dynamic Validation/Dynamic Validation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/demo01/demo01.html" beforeDir="false" afterPath="$PROJECT_DIR$/demos/demo01/demo01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/important something for Dom.txt" beforeDir="false" afterPath="$PROJECT_DIR$/important something for Dom.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,34 +35,40 @@
     <session id="-1909140297">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
-          <entry key="html" value="50" />
-          <entry key="js" value="1" />
+          <entry key="css" value="5" />
+          <entry key="html" value="103" />
+          <entry key="js" value="7" />
+          <entry key="ts" value="1" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="50" />
-          <entry key="JavaScript" value="1" />
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="103" />
+          <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
+          <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="102" />
-          <entry key="html" value="3398" />
+          <entry key="html" value="9803" />
+          <entry key="js" value="368" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -61,7 +76,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="102" />
-          <entry key="HTML" value="3398" />
+          <entry key="HTML" value="9803" />
+          <entry key="JavaScript" value="368" />
         </counts>
       </usages-collector>
     </session>
@@ -69,10 +85,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03. Collect List/Collect list.html">
+        <entry file="file://$PROJECT_DIR$/More Exercises-02/03. Accordion/Accordion.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state relative-caret-position="464">
+              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02. Show More/show more.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -82,8 +107,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -107,7 +132,6 @@
         <option value="$PROJECT_DIR$/demo04.html" />
         <option value="$PROJECT_DIR$/demos/demo01/demo01.js" />
         <option value="$PROJECT_DIR$/demos/demo01/demo01.css" />
-        <option value="$PROJECT_DIR$/demos/demo01/demo01.html" />
         <option value="$PROJECT_DIR$/demos/demo02/demo01.html" />
         <option value="$PROJECT_DIR$/demos/demo02/demo02.html" />
         <option value="$PROJECT_DIR$/02. Show More/show more.html" />
@@ -115,6 +139,23 @@
         <option value="$PROJECT_DIR$/05. Countdown/CountDown.html" />
         <option value="$PROJECT_DIR$/03. Collect List/Collect list.html" />
         <option value="$PROJECT_DIR$/Creating new DOM  element/demo01.html" />
+        <option value="$PROJECT_DIR$/06. Extract Parenthesis/Extract Parenthesis.html" />
+        <option value="$PROJECT_DIR$/More Exercises/03. Delete from Table/Delete from Table.html" />
+        <option value="$PROJECT_DIR$/07. Sum Table/Sum Table.html" />
+        <option value="$PROJECT_DIR$/More Exercises/04. Stopwatch/Stopwatch.html" />
+        <option value="$PROJECT_DIR$/demos/demo01/demo01.html" />
+        <option value="$PROJECT_DIR$/More Exercises/05. Mouse Gradient/gradient.css" />
+        <option value="$PROJECT_DIR$/More Exercises/02. Add  and Delete/Add and Delete.html" />
+        <option value="$PROJECT_DIR$/More Exercises/05. Mouse Gradient/Mouse Gradient.js" />
+        <option value="$PROJECT_DIR$/More Exercises/05. Mouse Gradient/Mouse Gradient.html" />
+        <option value="$PROJECT_DIR$/More Exercises/06. Highlight Active/Highlight Active.html" />
+        <option value="$PROJECT_DIR$/More Exercises/07. Dynamic Validation/Dynamic Validation.html" />
+        <option value="$PROJECT_DIR$/More Exercises/01. List of Items/List Exercises.html" />
+        <option value="$PROJECT_DIR$/More Exercises-02/01. Subtraction/subtract.js" />
+        <option value="$PROJECT_DIR$/More Exercises-02/01. Subtraction/01-Subtraction.html" />
+        <option value="$PROJECT_DIR$/More Exercises-02/02. Fill Dropdown/Fill Dropdown.html" />
+        <option value="$PROJECT_DIR$/More Exercises-02/02. Fill Dropdown/dropdown.js" />
+        <option value="$PROJECT_DIR$/More Exercises-02/03. Accordion/Accordion.html" />
       </list>
     </option>
   </component>
@@ -125,9 +166,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1081" />
-    <option name="y" value="17" />
-    <option name="width" value="825" />
+    <option name="x" value="986" />
+    <option name="y" value="1" />
+    <option name="width" value="935" />
     <option name="height" value="1025" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -144,6 +185,16 @@
             <path>
               <item name="Dom Manipulation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dom Manipulation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dom Manipulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dom Manipulation" type="462c0819:PsiDirectoryNode" />
+              <item name="02. Show More" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dom Manipulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dom Manipulation" type="462c0819:PsiDirectoryNode" />
+              <item name="More Exercises-02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,16 +237,19 @@
       <workItem from="1539575496792" duration="13666000" />
       <workItem from="1539600534385" duration="52000" />
       <workItem from="1539698787424" duration="10288000" />
+      <workItem from="1539768817601" duration="22562000" />
+      <workItem from="1539846626760" duration="17434000" />
+      <workItem from="1539866359620" duration="2259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28352000" />
+    <option name="totallyTimeSpent" value="70607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24256444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34567085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -214,7 +268,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24256444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29808328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -227,7 +281,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.063675836" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.063675836" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -270,13 +324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01. List of Items/listOfItems.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01. Calculate/calculate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -291,19 +338,6 @@
     <entry file="file://$PROJECT_DIR$/demo04.html" />
     <entry file="file://$PROJECT_DIR$/demos/demo01/demo01.js" />
     <entry file="file://$PROJECT_DIR$/demos/demo01/demo01.css" />
-    <entry file="file://$PROJECT_DIR$/02. Show More/show more.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/demo01/demo01.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/demos/demo02/demo01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -329,13 +363,6 @@
         <state relative-caret-position="-69" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04. Colorize Table/Colorize Table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Creating new DOM  element/demo01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
@@ -346,17 +373,170 @@
     <entry file="file://$PROJECT_DIR$/05. Countdown/CountDown.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06. Extract Parenthesis/Extract Parenthesis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07. Sum Table/Sum Table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03. Collect List/Collect list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="322">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/demo01/demo01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01. List of Items/listOfItems.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises/05. Mouse Gradient/gradient.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises/04. Stopwatch/Stopwatch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises/05. Mouse Gradient/Mouse Gradient.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises/05. Mouse Gradient/Mouse Gradient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="22" column="63" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jQuery/04 Link Buttons/buttons.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04. Colorize Table/Colorize Table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jQuery/04 Link Buttons/buttons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jQuery/04 Link Buttons/buttons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises/01. List of Items/List Exercises.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="12" column="74" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises/07. Dynamic Validation/Dynamic Validation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises/06. Highlight Active/Highlight Active.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises/03. Delete from Table/Delete from Table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises-02/01. Subtraction/subtract.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises-02/01. Subtraction/01-Subtraction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises/02. Add  and Delete/Add and Delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="54" column="36" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="54" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises-02/02. Fill Dropdown/dropdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises-02/02. Fill Dropdown/Fill Dropdown.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="76" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02. Show More/show more.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/More Exercises-02/03. Accordion/Accordion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
         </state>
       </provider>
     </entry>

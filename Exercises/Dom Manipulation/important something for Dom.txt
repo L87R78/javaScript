@@ -13,13 +13,19 @@
 
 
 
+- let id = setInterval(function() {alert('hahahhahahhaah')}, 2000);
 
 
 
-	най-важните атрибути са ID и class
+- дефиниране на списък в HTML
+			.<ul></ul>
+			.<dl></dl>
+			.<ol></ol>
 
 
 
+- дефиниране на items
+			.<li></li>
 
 	
 
