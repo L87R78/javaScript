@@ -11,7 +11,7 @@ function timer() {
         if(interval){
             clearInterval(interval) // това му казва, когато цъкнеме върху клика да не става нищо
         }
-       interval = setInterval(updateTime, 1000);
+        interval = setInterval(updateTime, 1000);
 
 
     });

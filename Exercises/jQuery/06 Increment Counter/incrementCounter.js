@@ -3,7 +3,6 @@ function increment(id) {
     let textArea = $('<textarea class="counter" disabled="disabled"></textarea>');
 
     textArea.val(0);
-    //console.log(textArea)
 
     let buttonAdd = $('<button class="btn" id="addBtn">Add</button>');
     buttonAdd.click(add);
