@@ -19,4 +19,4 @@ function createPerson() {
 		new Person('Peter', 'Kolev', 24, 'ptr@gmail.com'),
 	]
 }
-//createPerson().forEach(p => console.log(p.toString()));
+createPerson().forEach(p => console.log(p.toString()));
