@@ -44,15 +44,50 @@ function counterClosure() {
     }
 }
 let result = counterClosure();
-result(); //1
-result(); //1
-result(); //2
-result(); //3
-result(); //5
+console.log(result());
+console.log(result());
+console.log(result());
+console.log(result());
+console.log(result());
+console.log(result());
 */
+
+
 //..............................................................................................................................................................
 
-//module Pattern
+/*
+function walking () {
+    let distance = 10;
+
+    return function () {
+         return distance++;
+    }
+};
+let a = walking();
+console.log(a());
+console.log(a());
+console.log(a());
+*/
+
+let walking = (function () {
+    let distance = 0;
+
+    return{
+        getDisnace: function () {
+            return distance++;
+        }
+    };
+})();
+console.log(walking.getDisnace());
+console.log(walking.getDisnace());
+console.log(walking.getDisnace());
+console.log(walking.getDisnace());
+console.log(walking.getDisnace());
+
+
+
+
+
 
 
 

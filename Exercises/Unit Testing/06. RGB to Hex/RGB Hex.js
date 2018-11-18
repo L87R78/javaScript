@@ -37,7 +37,7 @@ describe('RGB To Hex Color',()=>{
 	})
 	it("it should return undefined for (256,5,18)",()=>{
 		expect(rgbToHexColor(256,5,18)).to.equal(undefined);
-	})
+	})npm
 	it("it should return undefined for (2,256,18)",()=>{
 		expect(rgbToHexColor(2,256,18)).to.equal(undefined);
 	})

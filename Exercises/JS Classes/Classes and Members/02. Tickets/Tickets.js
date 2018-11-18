@@ -1,3 +1,4 @@
+/*
 function solve(arr, criteria) {
 	class Tickets{
 		constructor(destination, price, status) {
@@ -23,6 +24,7 @@ solve(['Philadelphia|94.20|available',
 		'New York City|95.99|sold',
 		'Boston|126.20|departed'],
 	'destination');
+*/
 
 
 
@@ -93,6 +95,30 @@ Tickets(['Philadelphia|94.20|available',
 	'Boston|126.20|departed'],
 	'status');
  */
+//------------------------------------------------------------------------------------------------------
 
- 
+
+ function solve(arr, criteria) {
+ 	class Ticket{
+ 		constructor(desination, price, status){
+ 			this.destination = desination;
+ 			this.price = Number(price);
+ 			this.status = status;
+		}
+	}
+	let result = [];
+	 for (let el of arr) {
+		 let [destination, price, status] = el.split('|');
+		 let ticket = new Ticket(destination, price, status);
+		 result.push(ticket);
+	 }
+	 return result.sort((a, b) => a[criteria] > b[criteria])
+	 return result
+ }
+let finish = solve(['Philadelphia|94.20|available',
+    'New York City|95.99|available',
+    'New York City|95.99|sold',
+    'Boston|126.20|departed'],
+    'destination');
+console.log(finish);
 
