@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+    <title>Bind Function</title>
+</head>
+<body>
+    <button onclick="LoadResult()">Load bind func</button>
+    <br>
+    <br>
+    <div id="container"></div>
+
+    <script>
+        function LoadResult(){
+            let obj = {
+                num: 5
+            }
+            let myFunc = function(a, b, c){   
+                return this.num + a + b + c
+            }
+            let bound = myFunc.bind(obj);
+            console.dir(bound(1, 2, 3))
+        }
+    </script>
+</body>
+</html>
