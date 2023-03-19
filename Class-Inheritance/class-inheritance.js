@@ -1,11 +1,6 @@
 
 class Person {
   constructor(firstName, lastName , email){
-    // if(new.target === Person){
-    //   throw new Error ('Abtract class');
-      
-    // }
-
     this.firstName = firstName
     this.lastName = lastName
     this.email = email
@@ -26,7 +21,6 @@ class Person {
 let demo = new Person('Lubomir', 'Atanasov', 'lubomir@abv.bg')
 
 console.log(demo);
-
 
 class Teacher extends Person {
   constructor(firstName, lastName, email, subject){
@@ -50,5 +44,3 @@ class student extends Teacher {
  
 };
 let demo3 = new student('Ivan', 'Mladenov', 'Ivan@abv.bg', 'programming', 'hahahaa')
-
-console.log(demo3)

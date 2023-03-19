@@ -61,9 +61,3 @@ console.log(task1 + '\n' + task2);
      tasks.sort(Task.comparator);
      console.log(tasks.join('\n'));
  }, 1000); // Sort and print one second later
-//
-// // should throw an Error
-// let overdueTask = new Task('Overdue Task', new Date(2005, '4', '20'));
-// // should throw an Error
-// task1.deadline = new Date(2005, '4', '20');
-

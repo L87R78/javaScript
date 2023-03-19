@@ -43,10 +43,6 @@ solve({ model: 'VW Golf II',
 */ 
     
     
-    
-
-
-
 function solution (requirements) {
     let model = requirements.model;
     let color = requirements.color;
@@ -84,8 +80,3 @@ solution({ model: 'VW Golf II',
     carriage: 'hatchback',
     wheelsize: 14 }
 )
-
-
-
-
-

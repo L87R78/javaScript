@@ -12,7 +12,7 @@
        onclick="addItem()">
 <script>
     function addItem() {
-                        //solve 1
+                        // solution 1
         /*
         let newItem = document.getElementById("newText");
         let li = document.createElement('li');
@@ -35,7 +35,7 @@
         newItem.value = "";
         */
         //----------------------------------------------------------------------------
-                            //solve 2
+                            // solution 2
         let inputElement = document.getElementById("newText");
         if(inputElement.value.trim() !== ""){
             let li = document.createElement('li');
@@ -54,7 +54,6 @@
             document.getElementById('items').appendChild(li);
             inputElement.value = "";
         }
-
     }
 </script>
 </body>

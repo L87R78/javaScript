@@ -4,6 +4,5 @@ function solution(arr) {
     console.log('Max = ' + arr.reduce((a,b) => Math.max(a,b)));
     console.log('Product = ' + arr.reduce((a,b) => a * b));
     console.log('Join = ' + arr.join(''))
-
 }
 //solution([1, 2, 3, 4, 5]);

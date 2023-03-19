@@ -4,14 +4,12 @@ let person = {
         return console.dir(`${this.name} / ${address} / ${street}`)
     }
 }
-//console.log(person)
+
 let secondPersson = {
     name: 'Momchil'
 }
 const myWalk = person.walk.bind(secondPersson);
 //myWalk('Greece', 'Tasos')
-
-
 
 let obj = {
     name: 'Lubo',
@@ -28,11 +26,3 @@ let obj = {
 };
 
 obj.printMovies();
-
-
-
-
-
-
-
-

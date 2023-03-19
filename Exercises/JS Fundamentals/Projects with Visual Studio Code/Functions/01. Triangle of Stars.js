@@ -7,4 +7,4 @@ function solve(num) {
         console.log('*'.repeat(index))
     }
 }
-//solve(5)
+solution(5)

@@ -30,7 +30,6 @@ class LineManager{
 
         }
 
-      //  this.atDepot();
         return this._arr = value;
     }
 
@@ -71,16 +70,3 @@ while(man.atDepot === false) {
     console.log(man.toString());
     man.arriveAtStop(4);
 }
-
-console.log(man.toString());
-
-// Should throw an Error (minutes cannot be negative)
-//man.arriveAtStop(-4);
-// Should throw an Error (last stop reached)
-//man.arriveAtStop(4);
-
-// Should throw an Error at initialization
-//const wrong = new LineManager([
-//    { name: 'Stop', timeToNext: { wrong: 'Should be a number'} }
-//]);
-

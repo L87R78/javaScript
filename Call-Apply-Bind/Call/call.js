@@ -19,4 +19,4 @@ let context = {
     age: 12
 }
 //person.walk();
-person.walk.call(context, 'Sofia', '3232asa');
+person.walk.call(context, 'Sofia', 'test');

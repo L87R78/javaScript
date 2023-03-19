@@ -22,4 +22,4 @@ function solve(input) {
         console.log('1->3->2: ' + c);
     }
 }
-//solve([0, 0, 2, 0, 4, 0])
+solution([0, 0, 2, 0, 4, 0])

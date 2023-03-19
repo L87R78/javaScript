@@ -1,6 +1,5 @@
 let assert = require('chai').assert;
 
-
 class PaymentPackage {
     constructor(name, value) {
         this.name = name;
@@ -71,12 +70,6 @@ class PaymentPackage {
         return output.join('\n');
     }
 }
-
-
-
-
-
-
 
 describe("list", function () {
 

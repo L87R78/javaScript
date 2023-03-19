@@ -6,5 +6,5 @@ function solve(input){
            console.log("outside");
         }
 }
-//solve([8,-1,2,12,-3,3])
+solution([8,-1,2,12,-3,3])
 

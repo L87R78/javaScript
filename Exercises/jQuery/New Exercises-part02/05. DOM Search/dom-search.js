@@ -6,7 +6,7 @@ function domSearch(selector,bool) {
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                                                //solve 2
+                                                solution 2
 
 /*
 function domSearch(selector,bool) {

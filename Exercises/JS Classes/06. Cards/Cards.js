@@ -50,7 +50,7 @@ console.log(c1.toString());
 
 
 
-					//solve 02
+					solution 02
 
 
 

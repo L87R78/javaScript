@@ -15,8 +15,7 @@
 <button onclick="colorize()">Colorize</button>
 <script>
     function colorize() {
-                        //solve 1
-
+                        // solution 1
         let getAllRow = Array.from(document.querySelectorAll('tr'));
         for (let i = 1; i < getAllRow.length; i+=2) {
             let name = getAllRow[i].children[0];
@@ -24,7 +23,7 @@
             let town =getAllRow[i].children[1];
             town.style.background = 'teal';
         }
-                        // solve 2
+                        // solution 2
         /*
         let count = 0;
         for (let tr of document.querySelectorAll('table tr')) {

@@ -4,7 +4,6 @@ function solve() {
     let age = arguments[1];
     let weight = arguments[2];
     let height = arguments[3];
-    //console.log(name);
 
     let result = {};
 
@@ -14,9 +13,7 @@ function solve() {
         height: Number(height)
     };
 
-
     let BMI = Math.round(weight/(height/100 * height/100));
-    //console.log(BMI);
     let status = findStatus(BMI);
 
     result['name'] = name;
@@ -44,12 +41,7 @@ function solve() {
     }
     return result
 }
-
 //console.log(solve('Peter', 29, 75, 182));
-
-
-
-
 
 /*
 function solution (name,age,weight,height) {

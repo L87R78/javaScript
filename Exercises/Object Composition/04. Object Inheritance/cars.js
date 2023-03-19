@@ -49,7 +49,6 @@ solve(['create Subaru',
 
 
 
-
                                             //solution with module pattern
 /*
 function processCommands(commands) {
@@ -87,15 +86,7 @@ processCommands(['create Subaru',
     'print Subaru',
     'print BMW']
 );
-
 */
-
-
-
-
-
-
-
 
 
 function solve(input) {
@@ -122,7 +113,6 @@ function solve(input) {
             let list = [];
             for (let ob in obj[arr[0]]) {
             let temp = ob + ':' + obj[arr[0]][ob];
-                //ob взима color а obj[arr[0]][ob] взима value(red)
                 list.push(temp)
             }
             console.log(list.join(', '));
@@ -143,23 +133,3 @@ solve(['create c1',
     'print c1',
     'print c2']
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

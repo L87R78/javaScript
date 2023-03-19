@@ -5,4 +5,4 @@ function solve(input){
         console.log(str);
     }
 }
-//solve(3)
+solution(3)

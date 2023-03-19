@@ -1,7 +1,7 @@
 function monkeyPatcher(command) {
     let self = this;
     let commands = {
-        upvote: () => { //this is arrow func, they not working with this
+        upvote: () => {
             this.upvote++
 
         },

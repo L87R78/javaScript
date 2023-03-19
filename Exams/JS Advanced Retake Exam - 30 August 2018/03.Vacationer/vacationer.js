@@ -25,10 +25,7 @@ class Vacationer {
             return this._creditCard;
         }
 
-        //this._creditCard = value;
         this.generateIDNumber();
-        //return this._creditCard;
-
     }
 
     get fullName() {

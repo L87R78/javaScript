@@ -3,4 +3,4 @@ function solve(input){
         console.log(index);
     }
 }
-//solve(15);
+solution(15);

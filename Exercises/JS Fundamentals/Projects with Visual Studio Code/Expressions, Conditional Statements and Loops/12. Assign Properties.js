@@ -7,4 +7,4 @@ function solve(arr){
   console.log(object);
 
 }
-//solve(['name', 'Pesho', 'age', '23', 'gender', 'male']);
+solution(['name', 'Pesho', 'age', '23', 'gender', 'male']);

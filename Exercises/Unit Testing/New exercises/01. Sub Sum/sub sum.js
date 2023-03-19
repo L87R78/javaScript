@@ -1,7 +1,5 @@
 let expect = require("chai").expect
 
-
-
 function sum() {
     let sum = 0;
     for(num of arr){
@@ -9,7 +7,6 @@ function sum() {
         return sum;
     }
 }
-
 
 describe("sum  function test", function () {
     it("Shoud returm 6 for [1,2,3]", function () {
@@ -21,4 +18,3 @@ describe("sum  function test", function () {
         expect(result).to.be.equal()
     })
 });
-

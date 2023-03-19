@@ -65,7 +65,6 @@ describe("list", function () {
         it('test arr', function () {
             assert.equal(arr.expenses !== undefined, true)
         });
-
     });
     describe("add", function () {
         it('test add', function () {
@@ -162,9 +161,5 @@ describe("list", function () {
             arr.add("Angel");
             assert.equal(arr.orderBy(),'Angel, lubo');
         });
-
-
-
-
     });
 });

@@ -1,7 +1,5 @@
 let assert = require('chai').assert;
 
-
-
 class SubscriptionCard {
     constructor(firstName, lastName, SSN) {
         this._firstName = firstName;
@@ -54,7 +52,6 @@ class SubscriptionCard {
 }
 
 module.exports = SubscriptionCard;
-/*
 
 describe("card", function () {
 
@@ -121,9 +118,6 @@ describe("card", function () {
             assert.toString(card._subscriptions[1].startDate, new Date('2018-05-25'));
             assert.toString(card._subscriptions[1].endDate, new Date('2018-06-24'));
         });
-
-
-
     });
     describe("IsValid tests", function () {
         it('empty card', function () {
@@ -184,7 +178,6 @@ describe("card", function () {
             card.block()
 
             assert.equal(card.isValid('120', new Date('2018-04-24')), false);
-
         });
 
     });
@@ -198,17 +191,8 @@ describe("card", function () {
         assert.equal(card.firstName, 'Pesho');
         assert.equal(card.lastName, 'Petrov');
         assert.equal(card.SSN, '00000000');
-
     });
 });
-*/
-
-
-
-
-//------------------------------------------------SOLVE-02--------------------------------------------------
-
-
 
 describe("SubscriptionCard", function () {
 
@@ -292,7 +276,7 @@ describe("SubscriptionCard", function () {
             let test = card.isValid('120', new Date('2018-05-27'));
             assert.equal(test, false);
         });
-        //false
+
         it('empty card', function () {
             const card = new SubscriptionCard('Pesho', 'Petrov', '00000000');
 
@@ -335,11 +319,6 @@ describe("SubscriptionCard", function () {
             assert.equal(test, false);
         });
 
-
-
-
-
-        //true
         it('on start day ', function () {
             const card = new SubscriptionCard('Pesho', 'Petrov', '00000000');
             card.addSubscription('120', new Date('2018-04-22'), new Date('2018-05-21'));
@@ -369,13 +348,6 @@ describe("SubscriptionCard", function () {
             assert.equal(test, true);
         });
 
-
-
-
-
-
-
-                                    // for * test
         it('one day before', function () {
             const card = new SubscriptionCard('Pesho', 'Petrov', '00000000');
             card.addSubscription('*', new Date('2018-04-22'), new Date('2018-05-21'));
@@ -391,7 +363,6 @@ describe("SubscriptionCard", function () {
             assert.equal(test, false);
         });
 
-        //true
         it('on start day ', function () {
             const card = new SubscriptionCard('Pesho', 'Petrov', '00000000');
             card.addSubscription('*', new Date('2018-04-22'), new Date('2018-05-21'));
@@ -448,39 +419,3 @@ describe("SubscriptionCard", function () {
         });
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

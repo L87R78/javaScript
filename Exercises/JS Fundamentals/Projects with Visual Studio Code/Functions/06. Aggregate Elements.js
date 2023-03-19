@@ -15,4 +15,4 @@ function solve(arr){
     console.log(sumInverse);
     console.log(concat)
 }
-//solve([1, 2, 3]);
+solution([1, 2, 3]);

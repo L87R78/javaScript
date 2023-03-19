@@ -7,27 +7,19 @@ Person.prototype = {
         return 'Hello talk';
     }
 }
-//console.log(Person);
 
-
-let lubo = new Person('Lubo')
-//console.log(lubo);
-let gosho = new Person('Gosho')
-//console.log(gosho);
+let lubo = new Person('NameOne')
+let gosho = new Person('NameTwo')
 
 
 function extendPrototype(cla) {
     cla.prototype.something = 'Something'
     cla.prototype.saySomething = function () {
-        return 'say Something'
+        return 'Say something'
     }
 }
 
 extendPrototype(Person);
-//console.log(gosho.something)
-
-
-
 
 // --------------------------------------------------------------------
 
@@ -42,9 +34,6 @@ Angel.prototype = {
     }
 }
 let AngelDemo = new Angel('Angel', '1')
-//console.log(AngelDemo)
-
-
 
 function Bobi(name, age) {
     this.namme = name;
@@ -58,15 +47,3 @@ Bobi.prototype = {
 
 Object.assign(Bobi.prototype, Angel.prototype)
 let BobiDemo = new Bobi('Bobi', '2');
-// console.log(BobiDemo);
-// console.log(BobiDemo.name);
-
-
-// --------------------------------------
-
-
-
-
-
-
-

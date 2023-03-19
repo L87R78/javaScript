@@ -42,7 +42,7 @@ function addDestination() {
 }
 
 
-                        //solve 02
+                        solution 02
 /*
 function  addDestination() {
     let firstRow = $('#input');

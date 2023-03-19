@@ -21,9 +21,6 @@ console.log(myArr.sum());
 */
 
 
-
-
-
 (function () {
 	Array.prototype.last = function () {
 		return this.length

@@ -2,7 +2,6 @@ function addSticker() {
     let title = $('.title');
     let text = $('.content');
 
-
     if(title.val() !== '' && title.val() !== ''){
         let li = $('<li class="note-content">')
             .append($('<a class="button">x</a>').click(removeSticket))

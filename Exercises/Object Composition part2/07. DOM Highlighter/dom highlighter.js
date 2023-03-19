@@ -1,6 +1,4 @@
-
 function traverseDom(selector) {
-    //използваме Depth-First Search
     let targetNode = $(selector);
     let maxDepth = 0;
     let deepestNode = targetNode;
@@ -8,7 +6,7 @@ function traverseDom(selector) {
     depthFirstSearch(0, targetNode);
     hightFromBottonToTargetNode(maxDepth, deepestNode);
 
-    function hightFromBottonToTargetNode(remainigNodes, currentNode) {    //this is recorse up, връщане нагоре
+    function hightFromBottonToTargetNode(remainigNodes, currentNode) {
         console.log(remainigNodes);
         if(remainigNodes === -1){
             return;
@@ -19,7 +17,7 @@ function traverseDom(selector) {
 
     }
 
-    function depthFirstSearch(depth, currentNode) {       //this is recourse down, слизане на долу
+    function depthFirstSearch(depth, currentNode) {
 
         if(depth > maxDepth){
             maxDepth = depth;

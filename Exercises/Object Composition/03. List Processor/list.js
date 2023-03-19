@@ -24,7 +24,6 @@ function solve(arr) {
 solve(['add hello', 'add again', 'remove hello', 'add again', 'print']);
 */
 
-/*
 function solve(arr) {
     let funcResutl = (function () {
         let list = [];
@@ -52,9 +51,7 @@ function solve(arr) {
 }
 
 solve(['add pesho','add haha', 'add gosho','add Lubo', 'add pesho', 'remove pesho','print']);
-*/
 
-let list =
 
 
 

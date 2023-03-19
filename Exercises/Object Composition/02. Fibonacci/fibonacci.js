@@ -10,8 +10,6 @@ function counterClosure() {
         secondNum = firstNum + secondNum;
         firstNum = thirdNum;
         return firstNum
-
-
     }
 }
 
@@ -23,12 +21,6 @@ result(); //3
 result(); //5
 */
 
-
-
-
-
-
-/*
 function solve(input) {
     let lengthNum = input;
 
@@ -39,43 +31,7 @@ function solve(input) {
             //console.log(fib[i]);
         }
         console.log(`[${fib.join(', ')}]`);
-
-
     }
 }
 let count = solve(5);
 count();
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

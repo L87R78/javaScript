@@ -202,8 +202,3 @@ console.log(`list = [${list}]`);
  list.add(7.7);
  console.log(`list = [${list}]`);
  console.log("sum = " + list.sumNums());
-// list.removeByFilter(x => x % 2 === 0);
-// console.log(`list = [${list}]`);
-// console.log("sum = " + list.sumNums());
-
-

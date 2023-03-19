@@ -23,4 +23,3 @@ extensibleObject.extend({
 
 });
 console.log(extensibleObject);
-

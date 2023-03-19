@@ -5,9 +5,7 @@ function getArticleGenerator(articles) {
         //console.log(lengthArr)
         if(lengthArr > 0 ){
             //$('#content').append($(`<article>${articles.shift()}</article>`));
-
             //or
-
             $('#content').append($(`<p>${articles.shift()}</p>`));
         }
     }

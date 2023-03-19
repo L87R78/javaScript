@@ -12,5 +12,5 @@ function solve(arr, command) {
         return arr
     }
 }
-//solve([14, 7, 17, 6, 8], 'desc');
+solution([14, 7, 17, 6, 8], 'desc');
 

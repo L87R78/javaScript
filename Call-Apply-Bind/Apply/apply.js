@@ -1,12 +1,12 @@
 
 let person = {
-    name: 'Ivan',
+    name: 'Sam',
     walk: function(address, street){
         return console.dir(`${this.name} / ${address} / ${street}`)
     }
 }
 let context = {
-    name: 'Lubomir',
+    name: 'Peter',
     age: 12
 }
 //person.walk();

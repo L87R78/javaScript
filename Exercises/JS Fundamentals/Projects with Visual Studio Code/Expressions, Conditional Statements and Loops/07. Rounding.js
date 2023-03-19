@@ -7,7 +7,7 @@ function solve([number, precision]) {
      number = Number(number).toFixed(precision);
      console.log(Number(number));
 }
-//solve([3.14, 17])
+solution([3.14, 17])
 
 
 

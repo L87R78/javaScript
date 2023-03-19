@@ -18,8 +18,6 @@ function solve(obj) {
 //}))
 */
 
-
-
 function solve(obj) {
 	let weight = obj.weight;
 	let experience = obj.experience;
@@ -41,11 +39,3 @@ solve({ weight: 80,
 	experience: 1,
 	bloodAlcoholLevel: 0,
 	handsShaking: true })
-
-
-
-
-
-
-
-
